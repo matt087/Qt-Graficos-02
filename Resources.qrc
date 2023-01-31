@@ -3,5 +3,6 @@
         <file>img/Save.ico</file>
         <file>img/folder.png</file>
         <file>img/unlock.png</file>
+        <file>img/barra-grafica.png</file>
     </qresource>
 </RCC>

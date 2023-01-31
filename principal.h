@@ -17,26 +17,23 @@ class Principal : public QMainWindow
 public:
     Principal(QWidget *parent = nullptr);
     ~Principal();
-    int m_v1=50;
-    int m_v2=200;
-    int m_v3=350;
 
 private slots:
     void on_actionGuardar_triggered();
 
-    void on_btnpromediar_clicked();
-
     void on_nota1_valueChanged(int argv);
 
-    void on_nota2_valueChanged(int arg1);
+    void on_nota2_valueChanged(int argv);
 
-    void on_nota3_valueChanged(int arg1);
+    void on_nota3_valueChanged(int argv);
 
 private:
     Ui::Principal *ui;
     QPixmap m_lienzo;
+    int m_v1;
+    int m_v2;
+    int m_v3;
 
-    void dibujar(int, int, int);
-    void dimension();
+    void dibujar();
 };
 #endif // PRINCIPAL_H
