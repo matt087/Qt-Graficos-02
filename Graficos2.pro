@@ -25,6 +25,10 @@ HEADERS += \
 FORMS += \
     principal.ui
 
+TRANSLATIONS += \
+    graficos_en.ts \
+    graficos_jp.ts   \
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
@@ -32,3 +36,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Resources.qrc
+
+DISTFILES += \
+    graficos_en.ts \
+    graficos_jp.ts

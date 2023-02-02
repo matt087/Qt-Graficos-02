@@ -4,5 +4,7 @@
         <file>img/folder.png</file>
         <file>img/unlock.png</file>
         <file>img/barra-grafica.png</file>
+        <file>graficos_en.qm</file>
+        <file>graficos_jp.qm</file>
     </qresource>
 </RCC>
